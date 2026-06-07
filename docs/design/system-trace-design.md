@@ -2,7 +2,13 @@
 
 **Subject:** Varish Valleti — backend & distributed-systems engineer.
 **Inputs:** [Research report](../research/2026-06-08-design-research.md) · [Content model](../content/content-model.md) · `Varish_Valleti_Resume.pdf`
-**Status:** Approved direction → building.
+**Status:** ⚠️ SUPERSEDED. This early "System Trace" concept (dark observability /
+terminal aesthetic) was set aside once the brief sharpened to a **designer-grade
+editorial aesthetic carrying developer content, positioned full-stack** (not
+backend-only). The shipped direction is **"Warm Signal"** — warm editorial light
+theme, Fraunces serif display, a numbered typographic work index. See the
+[README](../../README.md) and the [designer-direction research](../research/2026-06-08-designer-direction.md).
+The anti-trope analysis and technique catalog below still informed the final build.
 
 ---
 

@@ -6,7 +6,7 @@ export const profile: Profile = {
   roleLong: "Full-Stack Software Engineer",
   location: "Hyderabad, India",
   timezone: "IST · UTC+5:30",
-  availability: "Open to backend & platform engineering roles",
+  availability: "Open to full-stack & software engineering roles",
   headline: "I build full-stack products that ship fast and stay reliable.",
   positioning:
     "Full-stack software engineer. I build products end to end — React on the front; Java, Spring Boot and AWS on the back — and make them fast and reliable. −80% worst-case API latency, a 3,000+ record incident recovered, 12 products shipped.",
