@@ -1,0 +1,28 @@
+.head {
+  max-width: 64ch;
+  margin-bottom: clamp(var(--s-6), 5vw, var(--s-8));
+}
+.kicker {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  margin-bottom: var(--s-4);
+}
+.idx {
+  color: var(--signal);
+}
+.rule {
+  width: 40px;
+  height: 1px;
+  background: var(--line-bright);
+}
+.title {
+  font-size: var(--fs-h1);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+.intro {
+  margin-top: var(--s-4);
+  color: var(--text-dim);
+  max-width: 56ch;
+}

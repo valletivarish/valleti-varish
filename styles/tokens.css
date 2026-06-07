@@ -1,0 +1,93 @@
+/* ============================================================
+   Folio — design tokens (warm editorial, designer aesthetic)
+   ============================================================ */
+:root {
+  /* ---- palette: warm paper + ink + one bold accent ---- */
+  --paper: #f7f4ee; /* page — warm linen */
+  --paper-2: #efe9dd; /* surface */
+  --paper-3: #e6dfcf; /* deeper surface */
+  --ink: #1c1a15; /* primary text, warm near-black */
+  --ink-soft: #5a5349; /* secondary text */
+  --ink-faint: #8f877a; /* tertiary / labels */
+  --line: #ddd6c6; /* hairline */
+  --line-strong: #c9c0ad;
+
+  --accent: #b85c3a; /* terracotta — primary accent */
+  --accent-deep: #9c4a2d;
+  --accent-soft: rgba(184, 92, 58, 0.12);
+  --green: #2d4a3e; /* forest green — secondary accent */
+
+  --ok: #2d4a3e;
+  --warn: #bd8a23;
+
+  /* ---- typography ---- */
+  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-hanken), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo,
+    monospace;
+
+  --fs-display: clamp(3rem, 11vw, 10rem);
+  --fs-h1: clamp(2.2rem, 6vw, 4.6rem);
+  --fs-h2: clamp(1.6rem, 3.6vw, 2.7rem);
+  --fs-h3: clamp(1.2rem, 1.9vw, 1.55rem);
+  --fs-body: clamp(1.05rem, 1.05vw, 1.2rem);
+  --fs-small: 0.95rem;
+  --fs-mono: 0.8125rem;
+  --fs-micro: 0.7rem;
+
+  --lh-tight: 0.9;
+  --lh-snug: 1.06;
+  --lh-body: 1.62;
+  --tracking-label: 0.16em;
+
+  /* ---- spacing ---- */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+  --s-9: 96px;
+  --s-10: 128px;
+  --s-11: 160px;
+  --s-12: 220px;
+
+  --maxw: 1360px;
+  --gutter: clamp(22px, 5vw, 88px);
+
+  --r-1: 2px;
+  --r-2: 8px;
+  --r-3: 16px;
+
+  /* ---- motion ---- */
+  --d-fast: 0.22s;
+  --d-base: 0.5s;
+  --d-slow: 0.9s;
+  --d-cine: 1.2s;
+  --e-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --e-inout: cubic-bezier(0.76, 0, 0.24, 1);
+
+  --z-rail: 50;
+  --z-overlay: 100;
+
+  /* ---- back-compat aliases (legacy component names → light) ---- */
+  --ink-900: var(--paper);
+  --ink-850: var(--paper);
+  --ink-800: var(--paper-2);
+  --ink-700: var(--paper-3);
+  --ink-600: var(--line-strong);
+  --line-bright: var(--line-strong);
+  --text: var(--ink);
+  --text-dim: var(--ink-soft);
+  --text-faint: var(--ink-faint);
+  --signal: var(--accent);
+  --signal-dim: var(--accent-deep);
+  --signal-ghost: var(--accent-soft);
+  --trace: var(--accent);
+  --trace-ghost: var(--accent-soft);
+  --err: var(--accent);
+
+  color-scheme: light;
+}

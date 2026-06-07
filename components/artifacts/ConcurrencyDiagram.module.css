@@ -1,0 +1,56 @@
+.wrap {
+  margin: 0;
+}
+.diagram {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  font-family: var(--font-mono);
+  font-size: var(--fs-micro);
+  flex-wrap: wrap;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.req {
+  padding: 5px 9px;
+  border: 1px solid var(--line-bright);
+  border-radius: var(--r-1);
+  color: var(--text-dim);
+}
+.arrow {
+  color: var(--text-faint);
+}
+.lock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: var(--s-3) var(--s-4);
+  border: 1px solid var(--signal);
+  border-radius: var(--r-2);
+  background: var(--signal-ghost);
+}
+.lockTitle {
+  color: var(--text);
+}
+.mutex {
+  color: var(--signal);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.ok {
+  color: var(--ok);
+}
+.rej {
+  color: var(--text-faint);
+}
+.cap {
+  margin-top: var(--s-4);
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+  font-size: var(--fs-micro);
+}
