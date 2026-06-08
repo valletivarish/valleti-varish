@@ -123,6 +123,18 @@
 
 .metrics {
   display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+}
+.metricsKicker {
+  font-family: var(--font-mono);
+  font-size: var(--fs-micro);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-faint);
+}
+.metricsRow {
+  display: flex;
   gap: clamp(var(--s-5), 3vw, var(--s-8));
   flex-wrap: wrap;
 }

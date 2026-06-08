@@ -1,6 +1,6 @@
 import type { ExperienceItem } from "./types";
 
-/** Career as a deployment changelog — newest first. */
+/** Career as a short editorial history — narrative, not a résumé bullet list. */
 export const experience: ExperienceItem[] = [
   {
     org: "Monocept",
@@ -10,14 +10,8 @@ export const experience: ExperienceItem[] = [
     kind: "work",
     client: "Axis Max Life Insurance",
     project: "MPro",
-    tag: "v2.0 · prod",
-    notes: [
-      "Built a config-driven product onboarding system across 12 insurance products (Coherent Spark → JSON on S3 via CloudFront); migrated plan-code assignment to plancode.json, removing 3–4 DB calls per policy.",
-      "Migrated the superannuation (group/business) flow onto the Falcon track via config-driven APIs — product setup without code changes.",
-      "Implemented proposal data mapping between mSales and MPro, ensuring parity across products; extended wrapper APIs with Benefit Illustration for fintech & aggregator integrations.",
-      "Built a policy-retrieval flow (policy no. / PAN / phone + DOB) prefilling 90% of a 6-stage journey, secured with Redis-based OTP.",
-      "Owned production support, hotfix deploys, and hypercare; monitored via Kibana & CloudWatch; managed CI/CD in GitLab & Jenkins.",
-    ],
+    summary:
+      "Building and operating the MPro insurance platform end to end — config-driven product onboarding across a dozen products, production ownership and hotfixes, and the performance and reliability work detailed in the projects above.",
   },
   {
     org: "Monocept",
@@ -25,20 +19,16 @@ export const experience: ExperienceItem[] = [
     when: "May 2024 — Nov 2024",
     where: "Hyderabad, India",
     kind: "work",
-    tag: "v1.0",
-    notes: [
-      "Built full-stack modules for an insurance management system (Spring Boot, React, MySQL, Redis) covering core policy and customer flows.",
-      "Implemented JWT authentication and Spring Security role-based access across multiple roles.",
-      "Designed RESTful APIs for policy, claims, and payment workflows; tuned MySQL queries with indexing for faster reporting.",
-    ],
+    summary:
+      "Where I started on the full stack — Spring Boot, React, MySQL and Redis — building core policy, claims and payment flows behind JWT-secured, role-based access.",
   },
   {
     org: "Anurag University",
     role: "B.Tech, Artificial Intelligence",
-    when: "Nov 2020 — Jun 2024",
+    when: "2020 — 2024",
     where: "Hyderabad, India",
     kind: "edu",
-    tag: "CGPA 7.9",
-    notes: ["Bachelor of Technology in Artificial Intelligence."],
+    summary:
+      "B.Tech in Artificial Intelligence, graduated at 7.9 CGPA — where the curiosity for how systems behave under real load began.",
   },
 ];

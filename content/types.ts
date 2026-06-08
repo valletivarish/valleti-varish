@@ -77,8 +77,7 @@ export interface ExperienceItem {
   kind: "work" | "edu";
   client?: string;
   project?: string;
-  tag: string;
-  notes: string[];
+  summary: string;
 }
 
 export interface LogEntry {

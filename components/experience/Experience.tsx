@@ -10,25 +10,26 @@ export default function Experience() {
         <SectionHeader
           index="04"
           label="experience"
-          title="Where I've worked."
+          title="A short history."
+          intro="The detailed version is in the projects above — here's the shape of it."
         />
         <ol className={styles.list}>
           {experience.map((e, i) => (
             <li key={i} className={styles.item}>
-              <Reveal className={styles.itemInner}>
-                <div className={styles.when}>{e.when}</div>
-                <div className={styles.body}>
-                  <h3 className={styles.role}>{e.role}</h3>
-                  <p className={styles.sub}>
-                    {e.kind === "work"
-                      ? [e.org, e.client, e.project].filter(Boolean).join(" · ")
-                      : `${e.org} · ${e.tag}`}
+              <Reveal className={styles.inner}>
+                <div className={styles.left}>
+                  <span className={styles.period}>{e.when}</span>
+                  <span className={styles.where}>{e.where}</span>
+                </div>
+                <div className={styles.right}>
+                  <h3 className={styles.company}>{e.org}</h3>
+                  <p className={styles.role}>
+                    {e.role}
+                    {e.kind === "work" && (e.client || e.project)
+                      ? ` — ${[e.client, e.project].filter(Boolean).join(" · ")}`
+                      : ""}
                   </p>
-                  <ul className={styles.notes}>
-                    {e.notes.map((n, j) => (
-                      <li key={j}>{n}</li>
-                    ))}
-                  </ul>
+                  <p className={styles.summary}>{e.summary}</p>
                 </div>
               </Reveal>
             </li>

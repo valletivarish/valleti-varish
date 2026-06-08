@@ -101,19 +101,24 @@ export default function Hero() {
           </div>
 
           <div className={styles.metrics} data-reveal>
-            <div className={styles.metric}>
-              <span className={styles.metricVal}>
-                <em>−80%</em>
-              </span>
-              <span className={styles.metricLabel}>worst-case latency</span>
-            </div>
-            <div className={styles.metric}>
-              <span className={styles.metricVal}>3,000+</span>
-              <span className={styles.metricLabel}>records recovered</span>
-            </div>
-            <div className={styles.metric}>
-              <span className={styles.metricVal}>12</span>
-              <span className={styles.metricLabel}>products shipped</span>
+            <span className={styles.metricsKicker}>
+              Selected impact · Axis Max Life (MPro)
+            </span>
+            <div className={styles.metricsRow}>
+              <div className={styles.metric}>
+                <span className={styles.metricVal}>
+                  <em>−80%</em>
+                </span>
+                <span className={styles.metricLabel}>worst-case API latency</span>
+              </div>
+              <div className={styles.metric}>
+                <span className={styles.metricVal}>3,000+</span>
+                <span className={styles.metricLabel}>policy records recovered</span>
+              </div>
+              <div className={styles.metric}>
+                <span className={styles.metricVal}>12</span>
+                <span className={styles.metricLabel}>insurance products shipped</span>
+              </div>
             </div>
           </div>
         </div>
