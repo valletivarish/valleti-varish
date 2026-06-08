@@ -22,11 +22,11 @@ export default function About() {
           <Reveal className={styles.media}>
             <figure className={styles.figure}>
               <img
-                src="/about-varish.jpg"
-                alt="Varish Valleti receiving the Excellence Award at Axis Max Life Insurance"
+                src="/award.jpg"
+                alt="The Excellence Award (FY25–26) from Axis Max Life Insurance"
                 className={styles.photo}
-                width={640}
-                height={1140}
+                width={507}
+                height={900}
                 loading="lazy"
               />
               <figcaption className={styles.cap}>

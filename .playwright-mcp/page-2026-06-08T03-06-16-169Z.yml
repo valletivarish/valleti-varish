@@ -1,0 +1,344 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Varish Valleti — home" [ref=e5] [cursor=pointer]:
+        - /url: "#top"
+        - text: Varish Valleti.
+      - navigation "Primary" [ref=e6]:
+        - link "01 Work" [ref=e7] [cursor=pointer]:
+          - /url: "#work"
+          - generic [ref=e8]: "01"
+          - text: Work
+        - link "02 About" [ref=e9] [cursor=pointer]:
+          - /url: "#about"
+          - generic [ref=e10]: "02"
+          - text: About
+        - link "03 Skills" [ref=e11] [cursor=pointer]:
+          - /url: "#skills"
+          - generic [ref=e12]: "03"
+          - text: Skills
+        - link "04 Experience" [ref=e13] [cursor=pointer]:
+          - /url: "#experience"
+          - generic [ref=e14]: "04"
+          - text: Experience
+        - link "05 Contact" [ref=e15] [cursor=pointer]:
+          - /url: "#contact"
+          - generic [ref=e16]: "05"
+          - text: Contact
+      - link "Available for work" [ref=e17] [cursor=pointer]:
+        - /url: "#contact"
+        - text: Available for work
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: Full-Stack Software Engineer
+            - generic [ref=e26]: ✳
+            - generic [ref=e28]: Portfolio — 2026
+          - heading "Varish Valleti." [level=1] [ref=e29]:
+            - generic [ref=e31]: Varish
+            - generic [ref=e33]: Valleti.
+          - paragraph [ref=e34]:
+            - text: Full-stack engineer building
+            - emphasis [ref=e35]: fast
+            - text: ","
+            - emphasis [ref=e36]: reliable
+            - text: products — front to back.
+          - generic [ref=e37]:
+            - link "Selected work" [ref=e38] [cursor=pointer]:
+              - /url: "#work"
+              - text: Selected work ↓
+            - link "Résumé" [ref=e39] [cursor=pointer]:
+              - /url: /Varish_Valleti_Resume.pdf
+              - text: Résumé ↗
+          - generic [ref=e40]:
+            - generic [ref=e41]: Selected impact · Axis Max Life (MPro)
+            - generic [ref=e42]:
+              - generic [ref=e43]:
+                - emphasis [ref=e45]: −80%
+                - generic [ref=e46]: worst-case API latency
+              - generic [ref=e47]:
+                - generic [ref=e48]: 3,000+
+                - generic [ref=e49]: policy records recovered
+              - generic [ref=e50]:
+                - generic [ref=e51]: "12"
+                - generic [ref=e52]: insurance products shipped
+        - figure "Hyderabad, India" [ref=e53]:
+          - img "Varish Valleti" [ref=e54]
+          - generic [ref=e55]: Hyderabad, India
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - text: React
+          - generic [ref=e59]: ✳
+        - generic [ref=e60]:
+          - text: Java
+          - generic [ref=e61]: ✳
+        - generic [ref=e62]:
+          - text: Spring Boot
+          - generic [ref=e63]: ✳
+        - generic [ref=e64]:
+          - text: Spring Security
+          - generic [ref=e65]: ✳
+        - generic [ref=e66]:
+          - text: AWS
+          - generic [ref=e67]: ✳
+        - generic [ref=e68]:
+          - text: MongoDB
+          - generic [ref=e69]: ✳
+        - generic [ref=e70]:
+          - text: Redis
+          - generic [ref=e71]: ✳
+        - generic [ref=e72]:
+          - text: MySQL
+          - generic [ref=e73]: ✳
+        - generic [ref=e74]:
+          - text: Docker
+          - generic [ref=e75]: ✳
+        - generic [ref=e76]:
+          - text: Microservices
+          - generic [ref=e77]: ✳
+        - generic [ref=e78]:
+          - text: React
+          - generic [ref=e79]: ✳
+        - generic [ref=e80]:
+          - text: Java
+          - generic [ref=e81]: ✳
+        - generic [ref=e82]:
+          - text: Spring Boot
+          - generic [ref=e83]: ✳
+        - generic [ref=e84]:
+          - text: Spring Security
+          - generic [ref=e85]: ✳
+        - generic [ref=e86]:
+          - text: AWS
+          - generic [ref=e87]: ✳
+        - generic [ref=e88]:
+          - text: MongoDB
+          - generic [ref=e89]: ✳
+        - generic [ref=e90]:
+          - text: Redis
+          - generic [ref=e91]: ✳
+        - generic [ref=e92]:
+          - text: MySQL
+          - generic [ref=e93]: ✳
+        - generic [ref=e94]:
+          - text: Docker
+          - generic [ref=e95]: ✳
+        - generic [ref=e96]:
+          - text: Microservices
+          - generic [ref=e97]: ✳
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - paragraph [ref=e102]:
+          - generic [ref=e103]: "01"
+          - text: selected work
+        - heading "Things I've shipped." [level=2] [ref=e106]
+        - paragraph [ref=e108]: Five problems worth solving — the approach and the measured result for each. Open one for the full story.
+      - list [ref=e109]:
+        - listitem [ref=e110]:
+          - link "The 15-second query — open case study" [ref=e111] [cursor=pointer]:
+            - /url: /work/latency-optimization/
+            - generic [ref=e112]: "01"
+            - generic [ref=e113]:
+              - generic [ref=e114]: The 15-second query
+              - generic [ref=e115]: Cut a critical high-volume API's worst-case latency by 80% — from 15s to under 3s.
+            - generic [ref=e116]:
+              - generic [ref=e117]: −80%
+              - generic [ref=e118]: 2024–2025
+            - generic [ref=e119]: ↗
+        - listitem [ref=e120]:
+          - link "Twelve products, zero code changes — open case study" [ref=e121] [cursor=pointer]:
+            - /url: /work/config-driven-onboarding/
+            - generic [ref=e122]: "02"
+            - generic [ref=e123]:
+              - generic [ref=e124]: Twelve products, zero code changes
+              - generic [ref=e125]: Built a config-driven onboarding system so new insurance products launch without code — across 12 products.
+            - generic [ref=e126]:
+              - generic [ref=e127]: "12"
+              - generic [ref=e128]: 2024–Present
+            - generic [ref=e129]: ↗
+        - listitem [ref=e130]:
+          - link "The 3,000-policy incident — open case study" [ref=e131] [cursor=pointer]:
+            - /url: /work/incident-recovery/
+            - generic [ref=e132]: "03"
+            - generic [ref=e133]:
+              - generic [ref=e134]: The 3,000-policy incident
+              - generic [ref=e135]: Diagnosed and resolved a production data-mapping incident affecting 3,000+ policies, restoring end-to-end integrity.
+            - generic [ref=e136]:
+              - generic [ref=e137]: 3,000+
+              - generic [ref=e138]: "2025"
+            - generic [ref=e139]: ↗
+        - listitem [ref=e140]:
+          - link "No double-booked seats — open case study" [ref=e141] [cursor=pointer]:
+            - /url: /work/concurrency-safe-booking/
+            - generic [ref=e142]: "04"
+            - generic [ref=e143]:
+              - generic [ref=e144]: No double-booked seats
+              - generic [ref=e145]: Building an event-booking system whose seat reservation is concurrency-safe by design — double-booking is impossible.
+            - generic [ref=e146]:
+              - generic [ref=e147]: "0"
+              - generic [ref=e148]: 2026–Present
+            - generic [ref=e149]: ↗
+        - listitem [ref=e150]:
+          - link "A journey that fills itself in — open case study" [ref=e151] [cursor=pointer]:
+            - /url: /work/prefilled-journey/
+            - generic [ref=e152]: "05"
+            - generic [ref=e153]:
+              - generic [ref=e154]: A journey that fills itself in
+              - generic [ref=e155]: A retrieval flow that prefills 90% of a 6-stage customer journey, secured with Redis-based OTP.
+            - generic [ref=e156]:
+              - generic [ref=e157]: 90%
+              - generic [ref=e158]: "2025"
+            - generic [ref=e159]: ↗
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - paragraph [ref=e164]:
+          - generic [ref=e165]: "02"
+          - text: about
+        - heading "The engineer behind the work." [level=2] [ref=e168]
+      - generic [ref=e169]:
+        - figure "Excellence Award, FY25–26 — Axis Max Life Insurance" [ref=e171]:
+          - img "The Excellence Award (FY25–26) from Axis Max Life Insurance" [ref=e172]
+          - generic [ref=e173]: Excellence Award, FY25–26 — Axis Max Life Insurance
+        - generic [ref=e174]:
+          - paragraph [ref=e176]: I’m a full-stack software engineer based in Hyderabad. I joined Monocept as an intern in 2024 and moved to software engineer within six months — building and shipping features on Axis Max Life Insurance’s MPro platform.
+          - paragraph [ref=e178]: "I like the whole stack: a clean React flow on the front, and the Spring Boot services, queries and AWS plumbing that make it fast and reliable on the back. The work I’m proudest of is the unglamorous kind — turning a 15-second request into a 3-second one, or a 3 a.m. incident into a clean fix."
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - term [ref=e182]: Based in
+              - definition [ref=e183]: Hyderabad, India · IST
+            - generic [ref=e184]:
+              - term [ref=e185]: Now
+              - definition [ref=e186]: Software Engineer @ Monocept
+            - generic [ref=e187]:
+              - term [ref=e188]: Education
+              - definition [ref=e189]: B.Tech, Artificial Intelligence — CGPA 7.9
+            - generic [ref=e190]:
+              - term [ref=e191]: Recognition
+              - definition [ref=e192]: Excellence Award, FY25–26
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - paragraph [ref=e197]:
+          - generic [ref=e198]: "03"
+          - text: capabilities
+        - heading "The full stack." [level=2] [ref=e201]
+        - paragraph [ref=e203]: Comfortable end to end — here's what I reach for, front to back.
+      - list [ref=e204]:
+        - listitem [ref=e205]:
+          - generic [ref=e206]:
+            - generic [ref=e207]: Frontend
+            - paragraph [ref=e208]:
+              - generic [ref=e209]: React,
+              - generic [ref=e210]: JavaScript,
+              - generic [ref=e211]: HTML,
+              - generic [ref=e212]: CSS
+        - listitem [ref=e213]:
+          - generic [ref=e214]:
+            - generic [ref=e215]: Backend
+            - paragraph [ref=e216]:
+              - generic [ref=e217]: Java,
+              - generic [ref=e218]: Spring Boot,
+              - generic [ref=e219]: Spring Security,
+              - generic [ref=e220]: Microservices,
+              - generic [ref=e221]: REST APIs,
+              - generic [ref=e222]: JWT Auth,
+              - generic [ref=e223]: JPA
+        - listitem [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e226]: Databases
+            - paragraph [ref=e227]:
+              - generic [ref=e228]: MySQL,
+              - generic [ref=e229]: MongoDB,
+              - generic [ref=e230]: Redis
+        - listitem [ref=e231]:
+          - generic [ref=e232]:
+            - generic [ref=e233]: Cloud · AWS
+            - paragraph [ref=e234]:
+              - generic [ref=e235]: EC2,
+              - generic [ref=e236]: S3,
+              - generic [ref=e237]: RDS,
+              - generic [ref=e238]: CloudFront,
+              - generic [ref=e239]: CloudWatch,
+              - generic [ref=e240]: IAM,
+              - generic [ref=e241]: Parameter Store
+        - listitem [ref=e242]:
+          - generic [ref=e243]:
+            - generic [ref=e244]: Tooling & Practices
+            - paragraph [ref=e245]:
+              - generic [ref=e246]: Git,
+              - generic [ref=e247]: GitLab,
+              - generic [ref=e248]: Jenkins,
+              - generic [ref=e249]: Docker,
+              - generic [ref=e250]: Postman,
+              - generic [ref=e251]: Swagger,
+              - generic [ref=e252]: Kibana,
+              - generic [ref=e253]: SonarQube,
+              - generic [ref=e254]: Jira,
+              - generic [ref=e255]: Agile,
+              - generic [ref=e256]: SOLID
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - paragraph [ref=e261]:
+          - generic [ref=e262]: "04"
+          - text: experience
+        - heading "A short history." [level=2] [ref=e265]
+        - paragraph [ref=e267]: The detailed version is in the projects above — here's the shape of it.
+      - list [ref=e268]:
+        - listitem [ref=e269]:
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - generic [ref=e272]: Nov 2024 — Present
+              - generic [ref=e273]: Hyderabad, India
+            - generic [ref=e274]:
+              - heading "Monocept" [level=3] [ref=e275]
+              - paragraph [ref=e276]: Software Engineer — Axis Max Life Insurance · MPro
+              - paragraph [ref=e277]: Building and operating the MPro insurance platform end to end — config-driven product onboarding across a dozen products, production ownership and hotfixes, and the performance and reliability work detailed in the projects above.
+        - listitem [ref=e278]:
+          - generic [ref=e279]:
+            - generic [ref=e280]:
+              - generic [ref=e281]: May 2024 — Nov 2024
+              - generic [ref=e282]: Hyderabad, India
+            - generic [ref=e283]:
+              - heading "Monocept" [level=3] [ref=e284]
+              - paragraph [ref=e285]: Software Intern
+              - paragraph [ref=e286]: Where I started on the full stack — Spring Boot, React, MySQL and Redis — building core policy, claims and payment flows behind JWT-secured, role-based access.
+        - listitem [ref=e287]:
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - generic [ref=e290]: 2020 — 2024
+              - generic [ref=e291]: Hyderabad, India
+            - generic [ref=e292]:
+              - heading "Anurag University" [level=3] [ref=e293]
+              - paragraph [ref=e294]: B.Tech, Artificial Intelligence
+              - paragraph [ref=e295]: B.Tech in Artificial Intelligence, graduated at 7.9 CGPA — where the curiosity for how systems behave under real load began.
+    - generic [ref=e297]:
+      - paragraph [ref=e298]: 05 — contact
+      - heading "Let’s build something good." [level=2] [ref=e300]
+      - link "varishvalleti52@gmail.com" [ref=e302] [cursor=pointer]:
+        - /url: mailto:varishvalleti52@gmail.com
+        - text: varishvalleti52@gmail.com ↗
+      - generic [ref=e304]:
+        - generic [ref=e305]:
+          - link "GitHub" [ref=e306] [cursor=pointer]:
+            - /url: https://github.com/valletivarish
+            - text: GitHub ↗
+          - link "LinkedIn" [ref=e307] [cursor=pointer]:
+            - /url: https://linkedin.com/in/valletivarish
+            - text: LinkedIn ↗
+          - link "LeetCode" [ref=e308] [cursor=pointer]:
+            - /url: https://leetcode.com/u/varishvalleti52
+            - text: LeetCode ↗
+          - link "Résumé" [ref=e309] [cursor=pointer]:
+            - /url: /Varish_Valleti_Resume.pdf
+            - text: Résumé ↗
+        - generic [ref=e310]:
+          - generic [ref=e311]: Open to full-stack & software engineering roles
+          - generic [ref=e313]: Hyderabad, India · IST · UTC+5:30
+      - generic [ref=e314]:
+        - generic [ref=e315]: © 2026 Varish Valleti
+        - generic [ref=e316]: Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=e322] [cursor=pointer]:
+    - img [ref=e323]

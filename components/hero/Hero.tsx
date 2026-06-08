@@ -7,13 +7,13 @@ import styles from "./Hero.module.css";
 
 const MARQUEE = [
   "React",
-  "Next.js",
-  "TypeScript",
   "Java",
   "Spring Boot",
+  "Spring Security",
   "AWS",
   "MongoDB",
   "Redis",
+  "MySQL",
   "Docker",
   "Microservices",
 ];
@@ -57,34 +57,35 @@ export default function Hero() {
   return (
     <header className={styles.hero} id="top" ref={root}>
       <div className={`container ${styles.inner}`}>
-        <div className={styles.topline} data-reveal>
-          <span>{profile.roleLong}</span>
-          <span className={styles.spark} aria-hidden="true">
-            ✳
-          </span>
-          <span className={styles.spacer} aria-hidden="true" />
-          <span>Portfolio — 2026</span>
-        </div>
+        <div className={styles.grid}>
+          <div className={styles.content}>
+            <div className={styles.topline} data-reveal>
+              <span>{profile.roleLong}</span>
+              <span className={styles.spark} aria-hidden="true">
+                ✳
+              </span>
+              <span className={styles.spacer} aria-hidden="true" />
+              <span>Portfolio — 2026</span>
+            </div>
 
-        <h1 className={styles.name}>
-          <span className={styles.line}>
-            <span className={styles.lineInner} data-line>
-              Varish
-            </span>
-          </span>
-          <span className={styles.line}>
-            <span className={styles.lineInner} data-line>
-              Valleti<span className={styles.dot}>.</span>
-            </span>
-          </span>
-        </h1>
+            <h1 className={styles.name}>
+              <span className={styles.line}>
+                <span className={styles.lineInner} data-line>
+                  Varish
+                </span>
+              </span>
+              <span className={styles.line}>
+                <span className={styles.lineInner} data-line>
+                  Valleti<span className={styles.dot}>.</span>
+                </span>
+              </span>
+            </h1>
 
-        <div className={styles.below}>
-          <div className={styles.leftcol}>
             <p className={styles.statement} data-reveal>
               Full-stack engineer building <em>fast</em>, <em>reliable</em>{" "}
               products — front to back.
             </p>
+
             <div className={styles.cta} data-reveal>
               <a href="#work" className={styles.btnPrimary}>
                 Selected work <span aria-hidden="true">↓</span>
@@ -98,29 +99,42 @@ export default function Hero() {
                 Résumé <span aria-hidden="true">↗</span>
               </a>
             </div>
-          </div>
 
-          <div className={styles.metrics} data-reveal>
-            <span className={styles.metricsKicker}>
-              Selected impact · Axis Max Life (MPro)
-            </span>
-            <div className={styles.metricsRow}>
-              <div className={styles.metric}>
-                <span className={styles.metricVal}>
-                  <em>−80%</em>
-                </span>
-                <span className={styles.metricLabel}>worst-case API latency</span>
-              </div>
-              <div className={styles.metric}>
-                <span className={styles.metricVal}>3,000+</span>
-                <span className={styles.metricLabel}>policy records recovered</span>
-              </div>
-              <div className={styles.metric}>
-                <span className={styles.metricVal}>12</span>
-                <span className={styles.metricLabel}>insurance products shipped</span>
+            <div className={styles.metrics} data-reveal>
+              <span className={styles.metricsKicker}>
+                Selected impact · Axis Max Life (MPro)
+              </span>
+              <div className={styles.metricsRow}>
+                <div className={styles.metric}>
+                  <span className={styles.metricVal}>
+                    <em>−80%</em>
+                  </span>
+                  <span className={styles.metricLabel}>worst-case API latency</span>
+                </div>
+                <div className={styles.metric}>
+                  <span className={styles.metricVal}>3,000+</span>
+                  <span className={styles.metricLabel}>policy records recovered</span>
+                </div>
+                <div className={styles.metric}>
+                  <span className={styles.metricVal}>12</span>
+                  <span className={styles.metricLabel}>insurance products shipped</span>
+                </div>
               </div>
             </div>
           </div>
+
+          <figure className={styles.portrait} data-reveal>
+            <img
+              src="/about-varish.jpg"
+              alt="Varish Valleti"
+              width={640}
+              height={1140}
+              className={styles.portraitImg}
+            />
+            <figcaption className={styles.portraitCap}>
+              Hyderabad, India
+            </figcaption>
+          </figure>
         </div>
       </div>
 

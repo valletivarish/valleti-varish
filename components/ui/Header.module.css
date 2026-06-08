@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   inset: 0 0 auto 0;
-  z-index: var(--z-rail);
+  z-index: 100;
   border-bottom: 1px solid transparent;
   transition:
     background var(--d-base) var(--e-out),
@@ -150,7 +150,9 @@
 
 .mobile {
   position: fixed;
-  inset: 72px 0 0 0;
+  inset: 0;
+  z-index: 90;
+  padding-top: 72px;
   background: var(--paper);
   visibility: hidden;
   opacity: 0;

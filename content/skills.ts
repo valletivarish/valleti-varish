@@ -7,8 +7,6 @@ export const skillGroups: SkillGroup[] = [
     label: "Frontend",
     items: [
       { name: "React", weight: 1 },
-      { name: "Next.js", weight: 0.7 },
-      { name: "TypeScript", weight: 0.7 },
       { name: "JavaScript", weight: 0.9 },
       { name: "HTML", weight: 0.8 },
       { name: "CSS", weight: 0.8 },

@@ -56,7 +56,7 @@ export default function Contact() {
 
         <div className={styles.colophon}>
           <span>© 2026 Varish Valleti</span>
-          <span>Designed &amp; built with Next.js · GSAP · Fraunces</span>
+          <span>Hyderabad, India</span>
         </div>
       </div>
     </footer>

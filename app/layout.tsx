@@ -36,8 +36,6 @@ export const metadata: Metadata = {
     "full-stack software engineer",
     "software engineer",
     "React",
-    "Next.js",
-    "TypeScript",
     "Java",
     "Spring Boot",
     "AWS",
