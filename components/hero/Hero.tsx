@@ -66,7 +66,7 @@ export default function Hero() {
                 ✳
               </span>
               <span className={styles.spacer} aria-hidden="true" />
-              <span>Portfolio — 2026</span>
+              <span>Portfolio</span>
             </div>
 
             <h1 className={styles.name}>
