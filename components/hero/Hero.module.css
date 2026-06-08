@@ -227,8 +227,8 @@
   margin-top: clamp(var(--s-6), 5vh, var(--s-8));
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  padding: var(--s-4) 0;
-  overflow: hidden;
+  padding: var(--s-5) 0;
+  overflow-x: clip;
   white-space: nowrap;
 }
 .marqueeTrack {
@@ -237,6 +237,7 @@
   animation: marquee 34s linear infinite;
   font-family: var(--font-display);
   font-size: clamp(1.4rem, 3vw, 2.3rem);
+  line-height: 1.35;
   color: var(--ink);
   will-change: transform;
 }
