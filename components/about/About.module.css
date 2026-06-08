@@ -16,7 +16,7 @@
 .photo {
   width: 100%;
   height: auto;
-  aspect-ratio: 64 / 114;
+  aspect-ratio: 92 / 126;
   object-fit: cover;
   border-radius: var(--r-3);
   filter: grayscale(1) contrast(1.03);
