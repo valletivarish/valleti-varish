@@ -172,7 +172,7 @@
 .portraitImg {
   width: 100%;
   height: auto;
-  aspect-ratio: 62 / 90;
+  aspect-ratio: 434 / 512;
   object-fit: cover;
   object-position: 50% 30%;
   border-radius: var(--r-3);

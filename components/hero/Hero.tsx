@@ -125,10 +125,10 @@ export default function Hero() {
 
           <figure className={styles.portrait} data-reveal>
             <img
-              src="/about-varish.jpg"
+              src="/portrait.jpg"
               alt="Varish Valleti"
-              width={640}
-              height={1140}
+              width={434}
+              height={512}
               className={styles.portraitImg}
             />
             <figcaption className={styles.portraitCap}>
