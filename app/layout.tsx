@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Fraunces, Hanken_Grotesk, JetBrains_Mono } from "next/font/google";
+import { Newsreader, Hanken_Grotesk, JetBrains_Mono } from "next/font/google";
 import "@/styles/tokens.css";
 import "./globals.css";
 import SmoothScroll from "@/components/motion/SmoothScroll";
 import { profile } from "@/content/profile";
 
-const display = Fraunces({
+const display = Newsreader({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  variable: "--font-newsreader",
   display: "swap",
-  axes: ["opsz", "SOFT"],
+  style: ["normal", "italic"],
 });
 const body = Hanken_Grotesk({
   subsets: ["latin"],

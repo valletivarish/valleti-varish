@@ -18,7 +18,7 @@ intentional motion.
 | Language | **TypeScript** | Type-safe content + components |
 | Motion | **GSAP** (ScrollTrigger, Flip) + **Lenis** | Mask reveals, scroll reveals, smooth scroll |
 | Styling | **CSS Modules** + design tokens | No utility framework → no generic look |
-| Type | **Fraunces** (display) · **Hanken Grotesk** (body) · **JetBrains Mono** (labels) | Editorial, distinctive (self-hosted via `next/font`) |
+| Type | **Newsreader** (display) · **Hanken Grotesk** (body) · **JetBrains Mono** (labels) | Editorial, distinctive (self-hosted via `next/font`) |
 | Content | Typed modules in `content/` | Single source of truth, edited in one place |
 
 No Tailwind, no Three.js, no Framer Motion — kept deliberately lean for performance.
@@ -96,4 +96,4 @@ public/               résumé PDF, processed images
 
 ---
 
-Designed & built with Next.js, GSAP, and Fraunces. © 2026 Varish Valleti.
+Designed & built with Next.js, GSAP, and Newsreader. © 2026 Varish Valleti.
