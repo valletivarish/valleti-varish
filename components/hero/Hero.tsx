@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "@/lib/gsap";
 import { profile } from "@/content/profile";
+import Magnetic from "@/components/motion/Magnetic";
 import styles from "./Hero.module.css";
 
 const MARQUEE = [
@@ -87,17 +88,21 @@ export default function Hero() {
             </p>
 
             <div className={styles.cta} data-reveal>
-              <a href="#work" className={styles.btnPrimary}>
-                Selected work <span aria-hidden="true">↓</span>
-              </a>
-              <a
-                href={profile.resume}
-                target="_blank"
-                rel="noopener"
-                className={styles.btnGhost}
-              >
-                Résumé <span aria-hidden="true">↗</span>
-              </a>
+              <Magnetic>
+                <a href="#work" className={styles.btnPrimary}>
+                  Selected work <span aria-hidden="true">↓</span>
+                </a>
+              </Magnetic>
+              <Magnetic>
+                <a
+                  href={profile.resume}
+                  target="_blank"
+                  rel="noopener"
+                  className={styles.btnGhost}
+                >
+                  Résumé <span aria-hidden="true">↗</span>
+                </a>
+              </Magnetic>
             </div>
 
             <div className={styles.metrics} data-reveal>
