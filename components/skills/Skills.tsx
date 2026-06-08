@@ -31,7 +31,7 @@ export default function Skills() {
                         {it.name}
                       </span>
                       {i < g.items.length - 1 ? (
-                        <span className={styles.comma}>,&nbsp;</span>
+                        <span className={styles.comma}>,{" "}</span>
                       ) : null}
                     </span>
                   ))}
